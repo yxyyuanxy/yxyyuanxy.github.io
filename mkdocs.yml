@@ -1,0 +1,48 @@
+site_name: 'Econnect Docs'
+site_url: 'https://yxyyuanxy.github.io/'
+site_author: 'Yuanxy'
+site_description: ''
+
+use_directory_urls: false
+
+remote_branch: gh-pages
+
+theme:
+  name: 'material'
+  palette:
+    primary: white
+    accent: dark
+  font:
+    text: Roboto
+    code: Roboto Regular
+  features:
+    - navigation.instant #- header.autohide  #自动隐藏
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - search.highlight # 搜索出的文章关键词加入高亮
+  language: zh # 一些提示性的文字会变成中文
+
+nav:
+  - 总览: index.md
+  - 好用/好玩网站分享: blog/Webplay.md
+  - What is Github: blog/Github.md
+  - 解决谷歌翻译用不了的问题: blog/googletranslate.md
+  - Mac/windows软件网站汇总: blog/macsoft.md
+  - win11资源分享: blog/win.md
+  - Telegram 群组、频道、机器人 - 汇总分享: blog/TG.md
+  - Python:
+    - 将Python文件.py打包成.exe可执行程序: blog/py/python.md
+    - pip: blog/py/pip.md
+  - C语言: blog/c.md
+  - 科学上网: blog/kexue.md
+  - 开发:
+    - Markdown: develop/markdown.md
+    - MWeb Pro: develop/MWeb.md
+    - 大厂们的良心软件～: develop/fenxiang.md
+    - 写给所有 Mac 用户的摸鱼指北: develop/Mac.md
+    
+copyright: 'Copyright &copy; 2023 Econnect.' # 左下角的版权声明
+
+extra:
+  generator: false  #删除页脚显示“使用 MkDocs 材料制造”
+  
+
